@@ -184,3 +184,63 @@ footer {
 }
 
 /* contact us end  */
+
+
+@media (max-width: 600px) {
+    .nav {
+        min-height: 80px; /* Adjust height for smaller screens */
+    }
+
+    .gif {
+        margin-top: 10px;
+        height: 100px; /* Adjust height for smaller screens */
+    }
+
+    #books_container {
+        gap: 10px; /* Adjust gap for smaller screens */
+        overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+    }
+
+    #books_container div {
+        width: 40vw; /* Adjust width for smaller screens */
+        text-align: center;
+    }
+
+    #books_container div img {
+        height: 60%; /* Adjust height for smaller screens */
+        width: 60%; /* Adjust width for smaller screens */
+    }
+
+    #books_container div button {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+
+    /* ... other adjustments for smaller screens ... */
+
+    /* contact us section */
+    .card {
+       
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .socialContainer {
+        width: 40px; /* Adjust width for smaller screens */
+        height: 40px; /* Adjust height for smaller screens */
+    }
+
+    .socialSvg {
+        width: 15px; /* Adjust width for smaller screens */
+    }
+
+    @keyframes slide-in-top {
+        0% {
+            transform: translateY(-30px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+}
